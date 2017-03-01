@@ -1,0 +1,55 @@
+
+.head
+{
+	font-family: sans-serif;
+	padding-right: 10px;
+}
+
+.head ,.navi 
+{
+	display:inline-block;
+
+}
+
+.head img
+{
+	width: 250px;
+	height:200px;
+}
+
+.head li
+{
+	display: inline;
+	
+}
+.navi li a:hover
+{
+	color: black;
+}
+.navi ul li
+{
+	
+	width: 150px;
+	margin:0px; 
+	height: 50px;
+	color: black;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+}
+.navi ul
+{
+	border:0px solid  black;
+	margin-top: -120px;
+	padding-right: 30px;
+}
+ul li a
+{
+	text-decoration:none;
+	color:#999;
+}
+
+.d1 img {
+width:300px;
+height: 400px;
+}
