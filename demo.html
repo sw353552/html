@@ -1,0 +1,298 @@
+<html>
+	<head>
+		<title>My Cake Shop</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+		<!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="customStyle.css">
+
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	 --></head>
+
+	<body>
+		<div class="container" id="main">
+			<abc class="navbar navbar-fixed-top" id="navibar">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"> <img src="img/logo3.jpg" alt="logo"> </a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse" <!-- id="menu" -->
+						<ul class="nav navbar-nav" id="l1">
+							<li class="active" >
+								<a href="#">Home</a>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Baking a cake</a>
+									</li>
+									
+									<li>
+										<a href="#">Icing a cake</a>
+									</li>
+								</ul>
+							<li> <a href="#">FAQ</a></li>
+						</ul>
+
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search here" id="search">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search">&nbsp;Search</span></button>
+						</form>
+
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-time"></span> Track your orders</a>
+									</li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+									</li>
+
+									<li class="divider"></li>
+
+									<li>
+										<button type="submit" id="btn" class="btn btn-info">Sign up</button>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+		
+			</abc><!-- end nav -->
+		</div><!-- end container -->
+					
+				
+ 
+		<div class="container">
+					<!-- <ul> <li class="divider"></li> <ul> -->
+					<hr>
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<!-- <br><br><br><br><br><br><br><br> -->
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Why Us?</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/cake1.jpg" alt="HTML5">
+						
+						<p>Although clear examples of the difference between cake and bread are easy to find, the precise classification has always been elusive.<a href="/" target="_blank" class="btn btn-link">Know more...</a></p>
+						
+						</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				
+				<div class="col-sm-4 feature">
+					<!-- <br><br><br><br><br><br><br><br> -->
+					
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Devouring cakes at Cake &amp Co.</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/cake6.jpg" alt="HTML5">
+						
+						<p>A layered pound cake filled with raspberry jam and lemon curd, and finished with buttercream frosting.
+							<br><br><a href="/" target="_blank" class="btn btn-success">How to make it?</a></p>
+						
+						</div><!-- end panel -->
+				</div><!-- end feature -->
+
+				<div class="col-sm-4 feature">
+					<!-- <br><br><br><br><br><br><br><br> -->
+
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Cakes for all occasions.</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/cake4.jpg" alt="Bootstrap 3">
+						
+						<p>The all time favourite Game of Thrones theme cake.The  iron throne.!</p>
+						<br>
+						<a href="http://getbootstrap.com/" target="_blank" class="btn btn-primary">Theme cakes</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->
+		</div><!-- end second container -->	
+
+
+			<div class="carousel slide" id="section2">
+				<br>
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#section2"></li>
+					<li data-slide-to="1" data-target="#section2"></li>
+					<li data-slide-to="2" data-target="#section2"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Birthday cakes</h4>
+							<p>Surprise them with our birthday cakes.</p>
+						</div>
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Anniversary cakes</h4>
+							<p>Although clear examples of the difference between cake and bread are easy to find, the precise classification has always been elusive.</p>
+						</div>
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Do we need an occasion to eat cake..</h4>
+							<p>Although clear examples of the difference between cake and bread are easy to find, the precise classification has always been elusive.</p>
+						</div>
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				
+				<a class="left carousel-control" data-slide="prev" href="#section2"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#section2"><span class="icon-next"></span></a>
+			
+			</div><!-- end carousel -->
+
+			<div class="row" id="section3">
+				<hr>
+				<div class="container">
+					
+				<div class="row" id="moreInfo">
+				<div class="col-lg-6">
+					
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Locate Us</a></li>
+							<li><a href="#tab2" data-toggle="tab">Feedback</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location </h4>
+								
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62241.326842206545!2d77.63917804134947!3d12.837917631483736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c8a7750e1c3%3A0x4a5cfc0fce5af71d!2sElectronic+City%2C+Bengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1488732597052" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+								
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+								<form>
+									  <div class="form-group">
+									    <label for="name">Name</label>
+									    <input type="text" class="form-control" id="name" placeholder="Name">
+
+									    <label for="email1">Email address</label>
+									    <input type="email" class="form-control" id="email1" placeholder="Email">
+									  	
+									  	<label for="feedback">Write something about us</label>
+									    <input type="feedback" class="form-control" id="feedback" placeholder="Your words...">
+
+									  </div>
+									  
+									  <div class="alert alert-success alert-block fade-in" id="successAlert">
+									    <button type="button" class="close" data-dismiss="alert">&times;</button>
+									  	<p>Feedback send !</p>
+									  	</div>
+									  <!-- <div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button></div>
+						<a href="" class="btn btn-large btn-primary" id="alertMe">Click a nice big button</a> -->
+
+									    <a href="" class="btn btn-large btn-success"  id="send">Send it !</a>
+									  	
+									</form>
+
+							</div><!-- end tab-pane -->
+								</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+					
+
+					<div class="col-lg-6">
+						<h4>Cake flavors</h4>
+						
+						<div class="list-group">
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Chocolate cakes</h4>
+								<p class="list-group-item-text">Early cakes in England were also essentially bread: the most obvious differences between a "cake" and "bread" were the round, flat shape of the cakes, and the cooking method, which turned cakes over once while cooking, while bread was left upright throughout the baking process.</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Ice-cream cakes</h4>
+								<p class="list-group-item-text">Early cakes in England were also essentially bread: the most obvious differences between a "cake" and "bread" were the round, flat shape of the cakes, and the cooking method, which turned cakes over once while cooking, while bread was left upright throughout the baking process.</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Fruit cakes</h4>
+								<p class="list-group-item-text">Early cakes in England were also essentially bread: the most obvious differences between a "cake" and "bread" were the round, flat shape of the cakes, and the cooking method, which turned cakes over once while cooking, while bread was left upright throughout the baking process.</p>
+							</a>
+						</div><!-- list-group -->
+				</div>		
+				</div><!-- end col-sm-6 -->
+
+			</div><!-- end moreInfo -->
+			</div><!-- end third section -->
+		</div><!-- end the container -->
+
+
+
+		<footer>
+			<hr>
+			<div id="foot">
+				<div class="row">
+					<div class="col-sm-3" id="d1">
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Contact us</a></li>
+							<li><a href="#">Email</a></li>
+						</ul>
+					</div>	
+
+					<div class="col-sm-6" id="d2">
+						<h3>About us</h3>
+						<p>Aliquam urna erat, blandit ac mauris non, hendrerit semper lectus. Morbi euismod, diam ac posuere imperdiet, quam tellus commodo erat, iaculis pharetra tortor urna ut quam. Aliquam suscipit lacus sit amet ipsum aliquet posuere. Pellentesque sollicitudin massa eu hendrerit varius. Nam ultrices, nunc sit amet commodo eleifend, odio metus dapibus nulla, et dictum lectus tellus a justo. Vivamus ultricies velit ut consequat sodales. Aliquam et ullamcorper ex, eget sollicitudin lacus. Sed vel sapien mauris.</p>
+					</div>
+
+					<div class="col-sm-3" id="d3">
+						<h4>Give us a thumbs up on <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a></h4>
+						<h4>Follow us on <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></h4>
+					</div>	
+
+				</div>
+			</div>
+		</footer>
+
+		<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/customJs.js"></script>
+	</body>
+</html>

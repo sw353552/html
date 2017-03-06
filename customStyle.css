@@ -1,0 +1,155 @@
+#search
+{
+	width:300px;
+}
+#main{
+	margin-top: 150px;
+}
+
+#menu
+{
+	padding-top: 35px;
+}
+ #features img
+ {
+ 	width:100%;
+ }
+#l1
+{
+	padding-right: 10px;
+	font-size: 16px;
+
+}
+#features
+{
+	text-align: center;
+
+}
+
+#successAlert
+{
+	margin-top: 20px;
+	display: none;
+}
+
+#btn
+{
+	margin-left: 50px;
+}
+
+.navbar-brand
+{
+	padding: 13px 15px;
+}
+#navibar
+{
+	background-color: #FDE7FD;
+}
+
+#section2 .item
+{
+		background-size: 100% 400px; 
+	height: 400px;
+	
+}
+
+#slide1
+{	
+	
+	background:url('img/cake4.jpg') top center no-repeat;
+}
+
+#slide2
+{
+	
+	background:url('img/cake6.jpg') top center no-repeat;
+}
+
+#slide3
+{
+	
+	background:url('img/cake5.jpeg') top center no-repeat;
+}
+
+#foot
+{
+	background-color: black;
+	color: white;
+}
+#d1
+{
+	margin-top: 90px;
+}
+#d3
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#slide1 h4
+{
+	color: red;
+}
+
+#slide2 h4
+{
+	color: red;
+}
+
+#slide3 h4
+{
+	color: red;
+}
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+/*#slide1
+{	
+	
+	background:url('img/cake4_sm.jpg') top center no-repeat;
+	
+}
+
+#slide2
+{
+	background:url('img/cake6_sm.jpg') top center no-repeat ;
+	
+}
+
+#slide3
+{
+	background:url('img/cake5_sm.jpg') top center no-repeat;
+	
+}
+
+
+*/}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+/*#slide1
+{	
+	
+	background:url('img/cake4.jpg') top center no-repeat;
+}
+
+#slide2
+{
+	background:url('img/cake6.jpg') top center no-repeat;
+}
+
+#slide3
+{
+	background:url('img/cake5.jpeg') top center no-repeat;
+	
+}
+*/
+}
