@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="customStyle.css">
@@ -22,9 +23,9 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"> <img src="img/logo3.jpg" alt="logo"> </a>
+					<a class="navbar-brand" href="#" id="nb"> <img src="img/logo3.jpg" alt="logo"> </a>
 
-					<div class="nav-collapse collapse navbar-responsive-collapse" <!-- id="menu" -->
+					<div class="nav-collapse collapse navbar-responsive-collapse" id="menu" >
 						<ul class="nav navbar-nav" id="l1">
 							<li class="active" >
 								<a href="#">Home</a>
@@ -40,12 +41,12 @@
 										<a href="#">Icing a cake</a>
 									</li>
 								</ul>
-							<li> <a href="#">FAQ</a></li>
+							<li> <a href="#" >FAQ</a> </li>
 						</ul>
 
 						<form class="navbar-form pull-left">
 							<input type="text" class="form-control" placeholder="Search here" id="search">
-							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search">&nbsp;Search</span></button>
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search">Search</span></button>
 						</form>
 
 						<ul class="nav navbar-nav pull-right">
@@ -84,50 +85,47 @@
 				
  
 		<div class="container">
-					<!-- <ul> <li class="divider"></li> <ul> -->
-					<hr>
+		<hr>
 			<div class="row" id="features">
+				
 				<div class="col-sm-4 feature">
-					<!-- <br><br><br><br><br><br><br><br> -->
 					<div class="panel">
 						<div class="panel-heading">
 							<h3 class="panel-title">Why Us?</h3>
-						</div><!-- end panel-heading -->
-						<img src="img/cake1.jpg" alt="HTML5">
+						</div>
+						<img src="img/cake1.jpg" alt="cake">
 						
-						<p>Although clear examples of the difference between cake and bread are easy to find, the precise classification has always been elusive.<a href="/" target="_blank" class="btn btn-link">Know more...</a></p>
+						<p>Although clear examples of the difference between cake and bread are easy to find, the precise classification has always been elusive.
+						<a href="#" class="btn btn-link" data-toggle="tooltip" title="Click to go to the blog.">Know more...
+							
+						</a></p>
 						
 						</div><!-- end panel -->
 				</div><!-- end feature -->
 				
-				
 				<div class="col-sm-4 feature">
-					<!-- <br><br><br><br><br><br><br><br> -->
-					
 					<div class="panel">
 						<div class="panel-heading">
 							<h3 class="panel-title">Devouring cakes at Cake &amp Co.</h3>
-						</div><!-- end panel-heading -->
-						<img src="img/cake6.jpg" alt="HTML5">
+						</div>
+						<img src="img/cake6.jpg" alt="cake">
 						
 						<p>A layered pound cake filled with raspberry jam and lemon curd, and finished with buttercream frosting.
-							<br><br><a href="/" target="_blank" class="btn btn-success">How to make it?</a></p>
-						
-						</div><!-- end panel -->
+							<br><br><a href="#" class="btn btn-success" data-toggle="tooltip" title="tips?">How to make it?</a></p>
+					</div><!-- end panel -->
 				</div><!-- end feature -->
 
 				<div class="col-sm-4 feature">
-					<!-- <br><br><br><br><br><br><br><br> -->
 
 					<div class="panel">
 						<div class="panel-heading">
 							<h3 class="panel-title">Cakes for all occasions.</h3>
-						</div><!-- end panel-heading -->
-						<img src="img/cake4.jpg" alt="Bootstrap 3">
+						</div>
+						<img src="img/cake4.jpg" alt="cake">
 						
 						<p>The all time favourite Game of Thrones theme cake.The  iron throne.!</p>
 						<br>
-						<a href="http://getbootstrap.com/" target="_blank" class="btn btn-primary">Theme cakes</a>
+						<a href="#"  class="btn btn-primary">Theme cakes</a>
 					</div><!-- end panel -->
 				</div><!-- end feature -->
 			</div><!-- end features -->
@@ -135,19 +133,10 @@
 
 
 			<div class="carousel slide" id="section2">
-				
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li class="active" data-slide-to="0" data-target="#section2"></li>
-					<li data-slide-to="1" data-target="#section2"></li>
-					<li data-slide-to="2" data-target="#section2"></li>
-				</ol>
-			
-				<!-- Wrapper for slides -->
+				 
 				<div class="carousel-inner">
-					<div class="item active" id="slide1">
+					<div class="item active"  id="slide1">
 						<div class="carousel-caption">
-							
 							<h4>Surprise them with our birthday cakes.</h4>
 						</div>
 					</div><!-- end item -->
@@ -160,7 +149,6 @@
 					
 					<div class="item" id="slide3">
 						<div class="carousel-caption">
-							
 							<h4>Just Cakes !</h4>
 						</div>
 					</div><!-- end item -->
@@ -172,11 +160,10 @@
 			
 			</div><!-- end carousel -->
 
-			<div class="row" id="section3">
-				<hr>
-				<div class="container">
-					
-				<div class="row" id="moreInfo">
+				
+				<div class="container" id="section3">
+					<hr>
+				<div class="row">
 				<div class="col-sm-6">
 					
 					<div class="tabbable">
@@ -210,11 +197,6 @@
 									  	<div><a href="" class="btn btn-success"  id="alertMe">Send it !</a>
 									  </div>
 									</div>
-
-									  <!-- <div class="alert alert-success alert-block fade in" id="successAlert">
-						<button type="button" class="close" data-dismiss="alert">&times;</button></div>
-						<a href="" class="btn btn-large btn-primary" id="alertMe">Click a nice big button</a> -->
-									  	
 								</form>
 
 							</div><!-- end tab-pane -->
@@ -282,7 +264,8 @@
 	
 	<!-- Bootstrap JS -->
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-	
+	<!-- tooltip -->
+	<script src="tether/dist/js/tether.min.js"></script>
 	<!-- Custom JS -->
 	<script src="customJs.js"></script>
 	</body>

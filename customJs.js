@@ -4,3 +4,12 @@ $(function() {
 		$('#successAlert').slideDown();
 	});
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
