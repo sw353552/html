@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Email</title>
+</head>
+<body>
+	
+<script>
+	var a=prompt("enter your email");
+function validateEmail(email) 
+{
+    var re = /\w+@\w+(\.\w{2,3})+$/;
+    if(re.test(email))
+    	alert("Valid email")
+    else 
+    	alert("Invalid Email")
+    return true;
+}
+validateEmail(a);
+
+</script>
+</body>
+</html>

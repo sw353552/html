@@ -1,0 +1,12 @@
+<html>
+<head><title>String Occurences </title></head>
+<body>
+<script>
+var myObj = [5, [22], [[14]], [[4]],[5,6]];
+var res=myObj.reduce(function(a,b){
+	return a.concat(b)
+},[])
+document.write(res);
+</script>
+</body>
+</html>

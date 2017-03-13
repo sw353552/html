@@ -1,0 +1,44 @@
+<html>
+<head><title>Student Marks </title></head>
+<body>
+	<script>
+		var students={"David" : 80, "Vinoth" : 77, "Divya":88, "Ishitha":95, "Thomas":68};
+		for(var i in students)
+		{
+			if(students[i]<60)
+			{
+				document.write("<br>"+i+" "+"F");
+			}
+			else if(students[i]<70 && students[i]>=60)
+			{
+				document.write("<br>"+i+" "+"D");
+			}
+			else if(students[i]<80 && students[i]>=70)
+			{
+				document.write("<br>"+i+" "+"C");
+			}
+			else if(students[i]<90 && students[i]>=80)
+			{
+				document.write("<br>"+i+" "+"B");
+			}
+			else if(students[i]<100)
+			{
+				document.write("<br>"+i+" "+"A");
+			}
+		}
+
+	</script>
+</body>
+</html>
+
+<!-- David        80
+Vinoth        77
+Divya        88
+Ishitha        95
+Thomas        68
+
+<60    F
+<70    D
+<80    C
+<90    B
+<100    A -->

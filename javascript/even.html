@@ -1,0 +1,26 @@
+<html>
+<head><title>Insert '-' </title></head>
+<body>
+	
+<script>
+
+	/*var no=document.getElementById("t1");*/
+	var no=prompt("enter a no.")
+	var res="";
+	for(i=0;i<no.length;i++)
+	{
+		if(no[i]%2==0 && no[i+1]%2==0)
+		{
+			res+=no[i]+"-";
+		}
+		else
+		{
+			res+=no[i];
+		}
+	}
+	document.write(res);
+
+	
+</script>
+</body>
+</html>

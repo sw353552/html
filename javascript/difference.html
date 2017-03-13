@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Difference of two arrays</title>
+</head>
+<body>
+	<script>
+	var a=[2,3,6,9];
+	var b=[3,6];
+	var res=[];
+	var x=[];
+	/*for(i=0;i<a.length;i++)
+	{
+		for(j=0;j<b.length;j++)
+			{
+				if(a[i]==b[j])
+				{
+					res.push(a[i]);
+				}
+				else
+				{
+					x.push(b[i]);
+				}
+			}
+	}*/
+
+	var set1=new Set();
+	var set2=new Set();
+	for(var i=0;i<a.length;i++)
+		set1.add(a[i]);
+	for(var j=0;j<b.length;j++)
+		set2.add(b[j]);
+
+	x=a.concat(b);
+	for(var i=0;i<a.length;i++)
+	{
+		if(set1.has(x[i]) && set2.has(x[i]))
+		{
+			continue;
+		}
+		else
+		{
+			res.push(x[i]);
+		}
+	}
+
+document.write(res);
+</script>
+</body>
+</html>

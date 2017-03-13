@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Duplicate elements</title>
+</head>
+<body>
+	<script>
+	var a=[1,6,0,7,0,8,0,8];
+	var set= new Set(a);
+	for(i=0;i<a.length;i++)
+		set.add(a[i]);
+		
+	
+	document.write(Array.from(set));
+</script>
+</body>
+</html>

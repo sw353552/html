@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Duplicate elements</title>
+</head>
+<body>
+	<script>
+	var a=[1,6,0,7,0,8,0,8];
+	var res=[];
+	for(i=0;i<a.length;i++)
+	{
+		for(j=i+1;j<a.length;j++)
+		{
+			if(a[i]==a[j])
+			{
+				/*res.push(a[j]);*/
+				a[i]='#';
+			}
+		}
+	}
+	for(x=0;x<a.length;x++)
+	{
+		if(a[x]!='#')
+		{
+		res.push(a[x]);
+		}
+	}
+
+	document.write(res);
+	</script>
+</body>
+</html>

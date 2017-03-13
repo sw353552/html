@@ -1,0 +1,48 @@
+<html>
+<head><title>Last </title></head>
+<body>
+<script>
+
+var myObj = 
+[{'name':'Saurabh', 'age': 30, 'occupation': "Team Leader"},
+{'name':'Anupriya', 'age': 32, 'occupation': "Team Leader"},
+{'name':'Kalyani', 'age': 25, 'occupation': "Programmer"},
+{'name':'Damodaran', 'age': 27, 'occupation': "Programmer"},
+{'name':'Krishnakath', 'age': 22, 'occupation': "Programmer"},
+{'name':'Venketraman', 'age': 28, 'occupation': "Programmer"}];
+
+var objP={
+["TeamLeader"]:[],
+["Programmer"]:[]};
+
+for(i=0;i<myObj.length;i++)
+{
+	if(myObj[i].occupation=="Programmer")
+	{
+		console.log(myObj[i]);
+	}
+}
+
+	var res2=myObj.sort(function(a,b){
+		return a.age-b.age;
+	});
+	console.log(res2);
+
+
+myObj.forEach(function(x){
+	if(x.occupation=="Team Leader")
+	{
+		delete x.occupation;
+		objP["TeamLeader"].push(x);
+	}
+	else if(x.occupation=="Programmer")
+	{
+		delete x.occupation;
+		objP["Programmer"].push(x);
+	}
+})
+console.log(objP);
+
+</script>
+</body>
+</html>
