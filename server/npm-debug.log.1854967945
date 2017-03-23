@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'init' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose stack Error: read EIO
+4 verbose stack     at exports._errnoException (util.js:1022:11)
+4 verbose stack     at TTY.onread (net.js:569:26)
+5 verbose cwd /vagrant/html/server
+6 error Linux 4.4.0-21-generic
+7 error argv "/usr/bin/nodejs" "/usr/bin/npm" "init"
+8 error node v6.10.0
+9 error npm  v3.10.10
+10 error code EIO
+11 error errno EIO
+12 error syscall read
+13 error read EIO
+14 error If you need help, you may report this error at:
+14 error     <https://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]

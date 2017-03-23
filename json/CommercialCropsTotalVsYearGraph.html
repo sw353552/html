@@ -40,14 +40,6 @@
         .x(function(d) {
         return xScale(d.year);
         })
-        .y(function(d) {
-        return yScale(d.value);
-        });
-        vis.append('svg:path')
-        .attr('d', lineGen(data))
-        .attr('stroke', 'gold')
-        .attr('stroke-width', 4)
-        .attr('fill', 'none')
         });
   </script>
 </body>

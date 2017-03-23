@@ -1,0 +1,32 @@
+.content{
+	text-align: center;
+	margin-top: 100px;
+	background:url('http://www.pptgrounds.com/wp-content/uploads/2012/08/Blue-movie-film-strip-backgrounds.jpg') no-repeat;
+	background-size: cover;
+	opacity: 0.8;
+	color:#000;
+	color: gold;
+}
+h1{
+	color: blue;
+}
+h3,h2{
+	color: purple;
+	border-radius: 5px;
+}
+
+.form-control{
+	background-size: 10px;
+	text-align: center;
+}
+.panel-heading{
+	background-color: #e3e3e3;
+	margin-bottom: 20px;
+}
+.row{
+	text-align: center;
+}
+p,span{
+	font-size: 20px;
+	font-family: helvetica;
+}

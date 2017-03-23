@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "myapp",
+  "main": "myappjs.js",
+  "scripts": {
+    "test": "mytest"
+  },
+  "keywords": [
+    "myserver"
+  ],
+  "author": "swathi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {}
+}
